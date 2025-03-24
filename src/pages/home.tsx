@@ -100,7 +100,7 @@ function HomeTest() {
       }
     }
   return (
-    < > 
+    <div className='flex-row w-[100%]'> 
       <Box
       component="form"
       sx={{
@@ -158,7 +158,7 @@ function HomeTest() {
       <Button variant="contained" className='mt-6' onClick={buttonClick}>Submit</Button>
     </Box>
 
-    <div style={{ height: 500, width: "80%", margin: "auto", marginTop: "20px" }}>
+    <div style={{ height: 500, width: "100%", margin: "auto", marginTop: "20px" }}>
       <h2 style={{ textAlign: "center" }} className='font-bold text-xl mb-2'>Selected Ambassadors</h2>
       <DataGrid
         rows={ambassadors}
@@ -168,7 +168,7 @@ function HomeTest() {
         checkboxSelection
       />
     </div>
-  </>
+  </div>
   )
 }
 
