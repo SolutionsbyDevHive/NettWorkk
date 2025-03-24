@@ -163,7 +163,7 @@ function HomeTest() {
       <DataGrid
         rows={ambassadors}
         columns={columns}
-        pageSize={5}
+        // pageSize={5}
         loading={loading}
         checkboxSelection
       />
